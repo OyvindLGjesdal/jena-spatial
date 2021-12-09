@@ -4,7 +4,7 @@
   <groupId>no.uib.jena</groupId>
   <artifactId>jena-spatial</artifactId>
   <name>Apache Jena - SPARQL Spatial Search</name>
-  <version>4.2</version>
+  <version>4.3</version>
   <build>
     <resources>
       <resource>
@@ -124,20 +124,20 @@
     <dependency>
       <groupId>org.apache.jena</groupId>
       <artifactId>apache-jena-libs</artifactId>
-      <version>4.2.0</version>
+      <version>4.3.0</version>
       <type>pom</type>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.apache.jena</groupId>
       <artifactId>jena-cmds</artifactId>
-      <version>4.2.0</version>
+      <version>4.3.0</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.apache.jena</groupId>
       <artifactId>jena-base</artifactId>
-      <version>4.2.0</version>
+      <version>4.3.0</version>
       <classifier>tests</classifier>
       <scope>test</scope>
     </dependency>
@@ -156,13 +156,13 @@
     <dependency>
       <groupId>org.apache.lucene</groupId>
       <artifactId>lucene-analyzers-common</artifactId>
-      <version>8.8.0</version>
+      <version>8.8.1</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.apache.lucene</groupId>
       <artifactId>lucene-queryparser</artifactId>
-      <version>8.8.0</version>
+      <version>8.8.1</version>
       <scope>compile</scope>
     </dependency>
   </dependencies>
@@ -171,7 +171,7 @@
     <build.time.xsd>${maven.build.timestamp}</build.time.xsd>
     <automatic.module.name>org.apache.jena.spatial</automatic.module.name>
     <maven.compiler.target>11</maven.compiler.target>
-    <ver.lucene>8.8.0</ver.lucene>
+    <ver.lucene>8.8.1</ver.lucene>
     <java.version>11</java.version>
     <maven.build.timestamp.format>yyyy-MM-dd'T'HH:mm:ssZ</maven.build.timestamp.format>
     <maven.compiler.source>11</maven.compiler.source>
